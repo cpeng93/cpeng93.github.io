@@ -642,7 +642,7 @@ async function main() {
     const url = new URL(
         // "nike.splat",
         // location.href,
-        params.get("url") || "JHU-Clark-Cloudy.splat",
+        params.get("url") || "JHU-Campus_Cleaned.splat",
         "https://huggingface.co/pc4653/JHU-in-3D/resolve/main/",
     );
     const req = await fetch(url, {
